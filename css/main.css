@@ -2928,7 +2928,7 @@ header .logo a {
     margin-left: 20px;
   }
 }
-@media only screen and (max-width: 410px) {
+@media only screen and (max-width: 420px) {
   #article-one,
   #article-two {
     width: 346px;
@@ -2951,7 +2951,7 @@ header .logo a {
   }
   #article-one,
   #article-two {
-    width: 325px;
+    width: 340px;
     margin-left: 0px;
   }
 }
