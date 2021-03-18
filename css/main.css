@@ -2925,9 +2925,17 @@ header .logo a {
   #article-one,
   #article-two {
     width: 346px;
-    margin-left: 30px;
+    margin-left: 20px;
   }
 }
+@media only screen and (max-width: 410px) {
+  #article-one,
+  #article-two {
+    width: 346px;
+    margin-left: 0px;
+  }
+}
+
 
 @media only screen and (max-width: 400px) {
   .bricks-wrapper .brick {
@@ -2943,22 +2951,17 @@ header .logo a {
   }
   #article-one,
   #article-two {
-    width: 230px;
+    width: 325px;
+    margin-left: 0px;
   }
 }
 @media only screen and (max-width: 375px) {
   #article-one,
   #article-two {
-    width: 312px;
+    width: 280px;
   }
 }
 @media only screen and (max-width: 320px) {
-  #article-one,
-  #article-two {
-    width: 268px;
-  }
-}
-@media only screen and (max-width: 300px) {
   #article-one,
   #article-two {
     width: 240px;
