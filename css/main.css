@@ -2958,6 +2958,13 @@ header .logo a {
     width: 268px;
   }
 }
+@media only screen and (max-width: 300px) {
+  #article-one,
+  #article-two {
+    width: 240px;
+    margin-left: 0px;
+  }
+}
 
 .entry-excerpt p {
   color: black;
