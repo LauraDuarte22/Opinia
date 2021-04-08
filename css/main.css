@@ -32,9 +32,9 @@
 @import url("../fonts");
 
 /* ===================================================================
- *  02. base style overrides - (_document-setup.scss)
- *
- * ------------------------------------------------------------------- */
+  *  02. base style overrides - (_document-setup.scss)
+  *
+  * ------------------------------------------------------------------- */
 html {
   font-size: 10px;
 }
@@ -76,8 +76,8 @@ body {
 }
 
 /* ------------------------------------------------------------------- 
- * links - (_document-setup.scss)  
- * ------------------------------------------------------------------- */
+  * links - (_document-setup.scss)  
+  * ------------------------------------------------------------------- */
 a,
 a:visited {
   color: #ffffff;
@@ -95,9 +95,9 @@ a:focus {
 }
 
 /* ===================================================================
- *  03. typography & general theme styles - (_document-setup.scss) 
- *
- * ------------------------------------------------------------------- */
+  *  03. typography & general theme styles - (_document-setup.scss) 
+  *
+  * ------------------------------------------------------------------- */
 h1,
 h2,
 h3,
@@ -313,8 +313,8 @@ hr {
 }
 
 /* ------------------------------------------------------------------- 
- * Lists - (_document-setup.scss)  
- * ------------------------------------------------------------------- */
+  * Lists - (_document-setup.scss)  
+  * ------------------------------------------------------------------- */
 ol {
   list-style: decimal;
 }
@@ -373,8 +373,8 @@ dd {
 }
 
 /* ------------------------------------------------------------------- 
- * Spacing - (_document-setup)  
- * ------------------------------------------------------------------- */
+  * Spacing - (_document-setup)  
+  * ------------------------------------------------------------------- */
 button,
 .button {
   margin-bottom: 1.2;
@@ -402,8 +402,8 @@ form,
 }
 
 /* ------------------------------------------------------------------- 
- * floated image - (_document-setup)  
- * ------------------------------------------------------------------- */
+  * floated image - (_document-setup)  
+  * ------------------------------------------------------------------- */
 img.pull-right {
   margin: 0.9rem 0 0 2.4rem;
 }
@@ -413,8 +413,8 @@ img.pull-left {
 }
 
 /* ------------------------------------------------------------------- 
- * block grids paddings
- * ------------------------------------------------------------------- */
+  * block grids paddings
+  * ------------------------------------------------------------------- */
 .bgrid {
   padding: 0 20px;
 }
@@ -444,8 +444,8 @@ img.pull-left {
 }
 
 /* ------------------------------------------------------------------- 
- * tables - (_document-setup.scss)  
- * ------------------------------------------------------------------- */
+  * tables - (_document-setup.scss)  
+  * ------------------------------------------------------------------- */
 table {
   border-width: 0;
   width: 100%;
@@ -485,8 +485,8 @@ td:last-child {
 }
 
 /* ------------------------------------------------------------------- 
- * pace.js styles - minimal  - (_document-setup.scss)
- * ------------------------------------------------------------------- */
+  * pace.js styles - minimal  - (_document-setup.scss)
+  * ------------------------------------------------------------------- */
 .pace {
   -webkit-pointer-events: none;
   pointer-events: none;
@@ -510,9 +510,9 @@ td:last-child {
 }
 
 /* ===================================================================
- *  04. preloader - (_preloader-1.scss)
- *
- * ------------------------------------------------------------------- */
+  *  04. preloader - (_preloader-1.scss)
+  *
+  * ------------------------------------------------------------------- */
 #preloader {
   position: fixed;
   top: 0;
@@ -579,9 +579,9 @@ td:last-child {
 }
 
 /* ===================================================================
- *  05. forms - (_forms.scss)
- *
- * ------------------------------------------------------------------- */
+  *  05. forms - (_forms.scss)
+  *
+  * ------------------------------------------------------------------- */
 fieldset {
   border: none;
 }
@@ -709,8 +709,8 @@ label > input[type="radio"] {
 }
 
 /**
- * Style Placeholder Text  
- */
+  * Style Placeholder Text  
+  */
 ::-webkit-input-placeholder {
   color: #777777;
 }
@@ -732,9 +732,9 @@ label > input[type="radio"] {
 }
 
 /* ===================================================================
- *  06. buttons - (_button-essentials.scss)
- *
- * ------------------------------------------------------------------- */
+  *  06. buttons - (_button-essentials.scss)
+  *
+  * ------------------------------------------------------------------- */
 .button,
 a.button,
 button,
@@ -854,12 +854,12 @@ input::-moz-focus-inner {
 }
 
 /* ===================================================================
- *  07. other components - (_others.scss)
- *
- * ------------------------------------------------------------------- */
+  *  07. other components - (_others.scss)
+  *
+  * ------------------------------------------------------------------- */
 
 /* alert box - (_alert-box.scss)
- * ------------------------------------------------------------------- */
+  * ------------------------------------------------------------------- */
 .alert-box {
   padding: 2.1rem 4rem 2.1rem 3rem;
   position: relative;
@@ -897,10 +897,10 @@ input::-moz-focus-inner {
 }
 
 /* additional typo styles - (_additional-typo.scss)
- * ------------------------------------------------------------------- */
+  * ------------------------------------------------------------------- */
 
 /* drop cap 
- * ----------------------------------------------- */
+  * ----------------------------------------------- */
 .drop-cap:first-letter {
   float: left;
   margin: 0;
@@ -914,7 +914,7 @@ input::-moz-focus-inner {
 }
 
 /* line definition style 
- * ----------------------------------------------- */
+  * ----------------------------------------------- */
 .lining dt,
 .lining dd {
   display: inline;
@@ -941,7 +941,7 @@ input::-moz-focus-inner {
 }
 
 /* dictionary definition style 
- * ----------------------------------------------- */
+  * ----------------------------------------------- */
 .dictionary-style dt {
   display: inline;
   counter-reset: definitions;
@@ -962,17 +962,17 @@ input::-moz-focus-inner {
 }
 
 /** 
- * Pull Quotes
- * -----------
- * markup:
- *
- * <aside class="pull-quote">
- *		<blockquote>
- *			<p></p>
- *		</blockquote>
- *	</aside>
- *
- * --------------------------------------------------------------------- */
+  * Pull Quotes
+  * -----------
+  * markup:
+  *
+  * <aside class="pull-quote">
+  *		<blockquote>
+  *			<p></p>
+  *		</blockquote>
+  *	</aside>
+  *
+  * --------------------------------------------------------------------- */
 .pull-quote {
   position: relative;
   padding: 2.1rem 3rem 2.1rem 0px;
@@ -1008,17 +1008,17 @@ input::-moz-focus-inner {
 }
 
 /** 
- * Stats Tab
- * ---------
- * markup:
- *
- * <ul class="stats-tabs">
- *		<li><a href="#">[value]<em>[name]</em></a></li>
- *	</ul>
- *
- * Extend this object into your markup.
- *
- * --------------------------------------------------------------------- */
+  * Stats Tab
+  * ---------
+  * markup:
+  *
+  * <ul class="stats-tabs">
+  *		<li><a href="#">[value]<em>[name]</em></a></li>
+  *	</ul>
+  *
+  * Extend this object into your markup.
+  *
+  * --------------------------------------------------------------------- */
 .stats-tabs {
   padding: 0;
   margin: 3rem 0;
@@ -1058,8 +1058,8 @@ input::-moz-focus-inner {
 }
 
 /**
- * pagination - (_pagination.scss)
- * ------------------------------------------------------------------- */
+  * pagination - (_pagination.scss)
+  * ------------------------------------------------------------------- */
 .pagination {
   margin: 3rem auto;
   text-align: center;
@@ -1107,12 +1107,12 @@ input::-moz-focus-inner {
 }
 
 /* ===================================================================
- *  08. common and reusable styles 
- *
- * ------------------------------------------------------------------- */
+  *  08. common and reusable styles 
+  *
+  * ------------------------------------------------------------------- */
 
 /* animation stuff - (_common-styles.scss) 
- * ------------------------------------------------------------------- */
+  * ------------------------------------------------------------------- */
 .js .animate-this {
   opacity: 0;
 }
@@ -1121,7 +1121,7 @@ input::-moz-focus-inner {
 }
 
 /* masonry entries - (_common-styles.scss) 
- * ------------------------------------------------------------------- */
+  * ------------------------------------------------------------------- */
 .bricks-wrapper .entry {
   margin-bottom: 20px;
   padding: 10px;
@@ -1134,10 +1134,24 @@ input::-moz-focus-inner {
 .text-image {
   position: absolute;
   text-align: left;
-  transform: translate(3%, -150%);
-  font-size: 50px;
-  
 }
+.text-image h1{
+  transform: translate(3%, -170%);
+}
+.first-article .text-image h1 {
+  font-size: 40px;
+  transform: translate(3%, -250%);
+  width: 220px;
+  height: 161px;
+}
+.first-article .text-image p {
+  font-size: 20px;
+  color:#FFF;
+  transform: translate(3%, -230%);
+  width: 220px;
+  height: 161px;
+}
+
 .history,
 .culture,
 .art,
@@ -1156,97 +1170,13 @@ input::-moz-focus-inner {
   background-color: rgba(102, 102, 102, 0.8);
   image-resolution: from-image;
 }
-.culture img{
+.culture img {
   background-color: rgb(100, 100, 100);
   background-blend-mode: soft-light;
   background-repeat: no-repeat;
   background-clip: padding-box;
   background-size: 135% 135%;
   background-color: rgba(102, 102, 102, 0.8);
-}
-
-
-#article-one a:hover,
-#article-two a:hover,
-.text-image a:hover {
-  color: khaki;
-}
-#article-one,
-#article-two {
-  background-image: url("https://64.media.tumblr.com/6a2451867593abf7264f9d734366b0cb/7a9d560beb712bf5-37/s2048x3072/662cca042587a11f3fd57a672e055a122be6002c.jpg");
-  background-color: rgb(50, 50, 50);
-  background-blend-mode: soft-light;
-  background-repeat: no-repeat;
-  background-clip: padding-box;
-  background-size: 135% 135%;
-  background-color: rgba(102, 102, 102, 0.8);
-  color: #ffffff;
-  position: relative;
-  height: 400px;
-  padding: 15px;
-  margin-left: 120px;
-  width: 250px;
-  overflow: hidden;
-}
-
-#article-two {
-  background-image: url("https://64.media.tumblr.com/f91fdd0e3988f17154f789f49547483e/1a111bb2f56222e8-9a/s2048x3072/dbe5981c873562bef2fdff190666c46e43b3a221.jpg");
-  background-color: rgb(50, 50, 50);
-  background-blend-mode: soft-light;
-  background-repeat: no-repeat;
-  background-clip: padding-box;
-  background-size: 135% 135%;
-  background-color: rgba(102, 102, 102, 0.8);
-  color: #ffffff;
-  position: relative;
-  height: 400px;
-  padding: 15px;
-  margin-left: 80px;
-  width: 250px;
-  overflow: hidden;
-}
-#article-one p,
-#article-two p {
-  padding-top: 60px;
-}
-#arte {
-  background-image: url("https://64.media.tumblr.com/f91fdd0e3988f17154f789f49547483e/1a111bb2f56222e8-9a/s2048x3072/dbe5981c873562bef2fdff190666c46e43b3a221.jpg");
-  background-color: rgb(100, 100, 100);
-  background-blend-mode: soft-light;
-  background-repeat: no-repeat;
-  background-clip: padding-box;
-  background-size: 135% 140%;
-  background-color: rgba(102, 102, 102, 0.8);
-  padding-top: 90%;
-  position: relative;
-  left: 10px;
-  top: 5%;
-  overflow: hidden;
-  height: 80%;
-}
-
-#cultura {
-  background-image: url("https://64.media.tumblr.com/8ecc06b16372fd633e4224efc286f3fe/1a111bb2f56222e8-a9/s2048x3072/670c7124ca6d2e096f8285e7eb3da4c1be613712.jpg");
-  
-  position: relative;
-  left: 10px;
-  top: 5%;
-  overflow: hidden;
-}
-
-#Opinion {
-  background-image: url("https://64.media.tumblr.com/cee1dcb1b08eef8bc0e15344c915bbea/0c4ee830c4a82243-e7/s2048x3072/1df3c8e0cd66834fdc4502e17ba76c4f2f047415.jpg");
-  background-color: rgb(100, 100, 100);
-  background-blend-mode: soft-light;
-  background-repeat: no-repeat;
-  background-clip: padding-box;
-  background-size: 135% 135%;
-  background-color: rgba(102, 102, 102, 0.8);
-  padding-top: 90%;
-  position: relative;
-  left: 10px;
-  top: 5%;
-  overflow: hidden;
 }
 #left-nav {
   background: #2b2b2b;
@@ -1379,41 +1309,38 @@ line {
 }
 
 /*.bricks-wrapper .entry-thumb .thumb-link::after {
-	content: "...";
-	font-family: georgia, serif;
-	font-size: 4.5rem;
-	z-index: 1;
-	display: inline-block;
-	height: 90px;
-	width: 90px;
-	letter-spacing: -2.6px;
-	line-height: 90px;
-	margin-left: -45px;
-	margin-top: -45px;
-	position: absolute;
-	left: 50%;
-	top: 50%;
-	text-align: center;
-	color: #FFFFFF;
-	opacity: 0;
-	visibility: hidden;
-	-moz-transition: all 0.3s ease-in-out;
-	-o-transition: all 0.3s ease-in-out;
-	-webkit-transition: all 0.3s ease-in-out;
-	-ms-transition: all 0.3s ease-in-out;
-	transition: all 0.3s ease-in-out;
-	-webkit-transform: scale(0.5);
-	-ms-transform: scale(0.5);
-	transform: scale(0.5);
-}*/
+   content: "...";
+   font-family: georgia, serif;
+   font-size: 4.5rem;
+   z-index: 1;
+   display: inline-block;
+   height: 90px;
+   width: 90px;
+   letter-spacing: -2.6px;
+   line-height: 90px;
+   margin-left: -45px;
+   margin-top: -45px;
+   position: absolute;
+   left: 50%;
+   top: 50%;
+   text-align: center;
+   color: #FFFFFF;
+   opacity: 0;
+   visibility: hidden;
+   -moz-transition: all 0.3s ease-in-out;
+   -o-transition: all 0.3s ease-in-out;
+   -webkit-transition: all 0.3s ease-in-out;
+   -ms-transition: all 0.3s ease-in-out;
+   transition: all 0.3s ease-in-out;
+   -webkit-transform: scale(0.5);
+   -ms-transform: scale(0.5);
+   transform: scale(0.5);
+ }*/
 
-#article-two:hover,
-#article-one:hover,
 .art:hover img,
 .opinion:hover img,
 .history:hover img,
-.culture:hover img
-{
+.culture:hover img {
   background-color: rgba(0, 0, 0, 0.5);
   visibility: visible;
 }
@@ -1427,12 +1354,11 @@ line {
 }
 
 .bricks-wrapper .entry-thumb:hover .thumb-link img,
-#article-two:hover,
-#article-one:hover,
-.history img:hover ,
+.history img:hover,
 .culture img:hover,
 .art img:hover,
-.opinion img:hover {
+.opinion img:hover,
+.first-article:hover img {
   -webkit-transform: scale(1.05);
   -ms-transform: scale(1.05);
   transform: scale(1.05);
@@ -1506,8 +1432,8 @@ line {
 
 .featured-grid,
 .featured-post-slide {
-  height: 420px;
-  width: 500px;
+  height: 100%;
+  width: 100%;
 }
 
 .featured-post-slide {
@@ -1593,13 +1519,14 @@ line {
 }
 
 .featured-post-slide .slide-title a:hover,
-.featured-post-slide .slide-title a:focus {
+.featured-post-slide .slide-title a:focus,
+.text-image a:hover {
   color: khaki;
   border-color: rgba(255, 255, 255, 0.2);
 }
 
 /* featured-post-slider direction nav
- * --------------------------------------------------------- */
+  * --------------------------------------------------------- */
 #featured-post-slider .flex-direction-nav li {
   position: absolute;
   top: 50%;
@@ -1649,8 +1576,8 @@ line {
 }
 
 /* responsive:
-/* featured slider
-/* ------------------------------------------------------------------- */
+ /* featured slider
+ /* ------------------------------------------------------------------- */
 @media only screen and (max-width: 1024px) {
   .featured-post-slide .slide-title {
     font-size: 3.7rem;
@@ -1700,10 +1627,10 @@ line {
 }
 
 /*  post formats - masonry view - (_common-styles.scss) 
- * ------------------------------------------------------------------- */
+  * ------------------------------------------------------------------- */
 
 /* format quote & format link
- * --------------------------------------- */
+  * --------------------------------------- */
 
 .format-link,
 .format-quote {
@@ -1860,19 +1787,19 @@ line {
   font-size: 20px;
 }
 /*.format-quote .entry-thumb::before,
-.format-link .entry-thumb::before
- {
-	content: "\e920";
-	font-family: "icomoon";
-	font-size: 3rem;
-	color: #ccc;
-	position: absolute;
-	top: 3.3rem;
-	left: 50%;
-	-webkit-transform: translateX(-50%);
-	-ms-transform: translateX(-50%);
-	transform: translateX(-50%);
-}*/
+ .format-link .entry-thumb::before
+  {
+   content: "\e920";
+   font-family: "icomoon";
+   font-size: 3rem;
+   color: #ccc;
+   position: absolute;
+   top: 3.3rem;
+   left: 50%;
+   -webkit-transform: translateX(-50%);
+   -ms-transform: translateX(-50%);
+   transform: translateX(-50%);
+ }*/
 
 .format-quote blockquote::before {
   display: none;
@@ -1937,7 +1864,7 @@ line {
 }
 
 /* format video
- * --------------------------------------- */
+  * --------------------------------------- */
 .format-video .entry-thumb a {
   cursor: zoom-in;
   display: block;
@@ -1973,9 +1900,9 @@ line {
 }
 
 /* ===================================================================
- *  09. header styles - (_layout.scss)
- *
- * ------------------------------------------------------------------- */
+  *  09. header styles - (_layout.scss)
+  *
+  * ------------------------------------------------------------------- */
 header {
   width: 100%;
   background: #dbdbdb url(../imagenes/escheresque_@2X.png) repeat;
@@ -2004,8 +1931,8 @@ header a {
 }
 
 /* ------------------------------------------------------------------- 
- * header logo - (_layout.css) 
- * ------------------------------------------------------------------- */
+  * header logo - (_layout.css) 
+  * ------------------------------------------------------------------- */
 header .logo {
   position: absolute;
   left: 35px;
@@ -2033,8 +1960,8 @@ header .logo a {
 }
 
 /* responsive:
- * header logo
- * ------------------------------------------------------------------- */
+  * header logo
+  * ------------------------------------------------------------------- */
 @media only screen and (max-width: 768px) {
   header .logo {
     left: 45px;
@@ -2060,8 +1987,8 @@ header .logo a {
 }
 
 /* ------------------------------------------------------------------- 
- * navigation - (_layout.css) 
- * ------------------------------------------------------------------- */
+  * navigation - (_layout.css) 
+  * ------------------------------------------------------------------- */
 .triggers {
   position: absolute;
   right: 35px;
@@ -2079,8 +2006,8 @@ header .logo a {
 }
 
 /* responsive:
- * triggers
- * ------------------------------------------------------------------- */
+  * triggers
+  * ------------------------------------------------------------------- */
 @media only screen and (max-width: 768px) {
   .triggers {
     right: 40px;
@@ -2101,8 +2028,8 @@ header .logo a {
 }
 
 /* ------------------------------------------------------------------- 
- * main navigation - (_layout.css) 
- * ------------------------------------------------------------------- */
+  * main navigation - (_layout.css) 
+  * ------------------------------------------------------------------- */
 #main-nav-wrap {
   display: table;
   float: right;
@@ -2208,8 +2135,8 @@ header .logo a {
 }
 
 /* -------------------------------------------------------------------
- * main navigation - mobile view
- * ------------------------------------------------------------------- */
+  * main navigation - mobile view
+  * ------------------------------------------------------------------- */
 @media only screen and (max-width: 768px) {
   .triggers {
     z-index: 601;
@@ -2439,7 +2366,7 @@ header .logo a {
 }
 
 /* make sure the menu is visible on larger screens
- * ------------------------------------------------------------------- */
+  * ------------------------------------------------------------------- */
 @media only screen and (min-width: 769px) {
   #main-nav-wrap ul.main-navigation {
     display: table-cell !important;
@@ -2447,8 +2374,8 @@ header .logo a {
 }
 
 /* ------------------------------------------------------------------- 
- * search wrap - (_layout.css) 
- * ------------------------------------------------------------------- */
+  * search wrap - (_layout.css) 
+  * ------------------------------------------------------------------- */
 .search-wrap {
   display: block;
   text-align: center;
@@ -2585,8 +2512,8 @@ header .logo a {
 }
 
 /* responsive:
- * search wrap
- * ------------------------------------------------------------------- */
+  * search wrap
+  * ------------------------------------------------------------------- */
 @media only screen and (max-width: 768px) {
   .search-wrap .search-form::after {
     font-size: 1.5rem;
@@ -2610,9 +2537,9 @@ header .logo a {
 }
 
 /* ===================================================================
- *  10. page header - (_layout.scss)
- *
- * ------------------------------------------------------------------- */
+  *  10. page header - (_layout.scss)
+  *
+  * ------------------------------------------------------------------- */
 #page-header {
   padding: 4.2rem 0 0 0;
   text-align: center;
@@ -2632,9 +2559,9 @@ header .logo a {
 }
 
 /* ===================================================================
- *  11. content wrap - (_layout.scss)
- *
- * ------------------------------------------------------------------- */
+  *  11. content wrap - (_layout.scss)
+  *
+  * ------------------------------------------------------------------- */
 .content-wrap {
   margin-top: 5.6rem;
 }
@@ -2686,8 +2613,8 @@ header .logo a {
 }
 
 /* responsive:
- * content wrap
- * ------------------------------------------------------------------- */
+  * content wrap
+  * ------------------------------------------------------------------- */
 @media only screen and (max-width: 1024px) {
   .content-wrap .row {
     max-width: 880px;
@@ -2765,9 +2692,9 @@ header .logo a {
 }
 
 /* ===================================================================
- *  12. bricks masonry - (_layout.scss)
- *
- * ------------------------------------------------------------------- */
+  *  12. bricks masonry - (_layout.scss)
+  *
+  * ------------------------------------------------------------------- */
 #bricks {
   padding-top: 4.2rem;
 }
@@ -2824,18 +2751,18 @@ header .logo a {
 }
 
 .bricks-wrapper .featured-grid {
-  width: 50%;
+  width: 75%;
 }
 
 .bricks-wrapper .featured-grid .entry-content {
-  width: 120%;
+  width: 100%;
   height: 80%;
   background: #151515;
 }
 
 /* responsive: 
-/* bricks masonry
- * ------------------------------------------------------------------- */
+ /* bricks masonry
+  * ------------------------------------------------------------------- */
 @media only screen and (max-width: 1300px) {
   .format-small,
   .horizontal-format {
@@ -2869,16 +2796,6 @@ header .logo a {
     padding: 0 18px;
   }
 }
-@media only screen and (max-width: 1090px) {
-  #article-one,
-  #article-two {
-    width: 400px;
-    margin-left: 40px;
-  }
-  #article-two {
-    margin-left: 160px;
-  }
-}
 
 @media only screen and (max-width: 960px) {
   .bricks-wrapper .grid-sizer,
@@ -2889,28 +2806,13 @@ header .logo a {
   .bricks-wrapper .featured-grid {
     width: 100%;
   }
-  #article-one,
-  #article-two {
-    margin-left: 0px;
-    width: 350px;
-  }
 }
 @media only screen and (max-width: 768px) {
   .bricks-wrapper .brick {
     padding: 0 15px;
   }
-  #article-one,
-  #article-two {
-    margin-left: 0px;
-    width: 290px;
-  }
 }
-@media only screen and (max-width: 700px) {
-  #article-one,
-  #article-two {
-    width: 260px;
-  }
-}
+
 @media only screen and (max-width: 600px) {
   #bricks .row {
     max-width: 460px;
@@ -2922,20 +2824,7 @@ header .logo a {
     padding: 0 10px;
     clear: both;
   }
-  #article-one,
-  #article-two {
-    width: 346px;
-    margin-left: 0px;
-  }
 }
-@media only screen and (max-width: 420px) {
-  #article-one,
-  #article-two {
-    width: 346px;
-    margin-left: 0px;
-  }
-}
-
 
 @media only screen and (max-width: 400px) {
   .bricks-wrapper .brick {
@@ -2949,24 +2838,6 @@ header .logo a {
   .bricks-wrapper .featured-grid .entry-content {
     width: 100%;
   }
-  #article-one,
-  #article-two {
-    width: 340px;
-    margin-left: 0px;
-  }
-}
-@media only screen and (max-width: 375px) {
-  #article-one,
-  #article-two {
-    width: 280px;
-  }
-}
-@media only screen and (max-width: 320px) {
-  #article-one,
-  #article-two {
-    width: 240px;
-    margin-left: 0px;
-  }
 }
 
 .entry-excerpt p {
@@ -2974,9 +2845,9 @@ header .logo a {
 }
 
 /* ===================================================================
- *  13. footer - (_layout.scss)
- *
- * ------------------------------------------------------------------- */
+  *  13. footer - (_layout.scss)
+  *
+  * ------------------------------------------------------------------- */
 footer {
   padding-top: 1rem;
   padding-bottom: 0rem;
@@ -3088,8 +2959,8 @@ footer ul li {
 }
 
 /* responsive:
- * footer
- * ------------------------------------------------------------------- */
+  * footer
+  * ------------------------------------------------------------------- */
 @media only screen and (max-width: 768px) {
   .footer-main .footer-info {
     text-align: center;
@@ -3154,8 +3025,8 @@ footer ul li {
 }
 
 /* -------------------------------------------------------------------
- * go to top
- * ------------------------------------------------------------------- */
+  * go to top
+  * ------------------------------------------------------------------- */
 #go-top {
   position: fixed;
   bottom: 24px;
@@ -3200,8 +3071,8 @@ footer ul li {
 }
 
 /* responsive:
- * go top
- * ------------------------------------------------------------------- */
+  * go top
+  * ------------------------------------------------------------------- */
 @media only screen and (max-width: 600px) {
   #go-top {
     bottom: 0;
@@ -3210,12 +3081,12 @@ footer ul li {
 }
 
 /* ===================================================================
- *  14. blog styles
- *
- * ------------------------------------------------------------------- */
+  *  14. blog styles
+  *
+  * ------------------------------------------------------------------- */
 
 /* single post - (_blog.scss) 
- * ------------------------------------------------------------------- */
+  * ------------------------------------------------------------------- */
 .blog-single .entry-meta {
   font-family: "muli-regular", sans-serif;
   font-size: 1.5rem;
@@ -3351,8 +3222,8 @@ footer ul li {
 }
 
 /* responsive:
- * single post
- * ------------------------------------------------------------------- */
+  * single post
+  * ------------------------------------------------------------------- */
 @media only screen and (max-width: 768px) {
   .blog-single .entry-meta {
     font-size: 1.5rem;
@@ -3387,14 +3258,14 @@ footer ul li {
 }
 
 /* comments - (_blog.scss) 
- * ------------------------------------------------------------------- */
+  * ------------------------------------------------------------------- */
 .comments-wrap {
   background-color: rgba(0, 0, 0, 0.08);
   padding: 7.8rem 0 9rem;
 }
 
 /* comments
- * -------------------------------------------------- */
+  * -------------------------------------------------- */
 #comments {
   padding-top: 1.2rem;
   padding-bottom: 1.2rem;
@@ -3478,7 +3349,7 @@ footer ul li {
 }
 
 /* comments form
- * ---------------------------- */
+  * ---------------------------- */
 #comments .respond {
   padding-top: 4.2rem;
   border-top: 1px solid rgba(0, 0, 0, 0.1);
@@ -3493,8 +3364,8 @@ footer ul li {
 }
 
 /* responsive:
- * comments
- * ------------------------------------------------------------------- */
+  * comments
+  * ------------------------------------------------------------------- */
 @media only screen and (max-width: 768px) {
   #comments form button {
     width: 100%;
@@ -3516,7 +3387,7 @@ footer ul li {
 }
 
 /* post format gallery (_blog.scss)
- * ------------------------------------------------------------------- */
+  * ------------------------------------------------------------------- */
 .format-gallery .post-slider {
   position: relative;
   cursor: pointer;
@@ -3555,7 +3426,7 @@ footer ul li {
 }
 
 /* post format audio (_blog.scss)
- * ------------------------------------------------------------------- */
+  * ------------------------------------------------------------------- */
 .format-audio .audio-wrap {
   position: absolute !important;
   bottom: 0;
@@ -3706,15 +3577,15 @@ footer ul li {
 }
 
 /* ===================================================================
- *  15. page styles
- *
- * ------------------------------------------------------------------- */
+  *  15. page styles
+  *
+  * ------------------------------------------------------------------- */
 
 /* contact page
- * ------------------------------------------------------------------- */
+  * ------------------------------------------------------------------- */
 
 /* map
- * ----------------------------------------------- */
+  * ----------------------------------------------- */
 #map-wrap {
   background: white;
   z-index: 800;

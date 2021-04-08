@@ -1176,14 +1176,10 @@ input::-moz-focus-inner {
 	text-align: left;
 	transform: translate(0%, -100%);
 	font-size: 50px;
-	
   }
-.format-categorie:hover img{
-	/*background-color: rgba(0, 0, 0, 0.5);*/
+.format-categorie:hover {
 	visibility: visible;
 }
-
-
 .format-categorie:hover img{
 	opacity: 1;
 	visibility: visible;
