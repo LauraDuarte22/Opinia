@@ -1845,12 +1845,14 @@ header .logo a {
 
 .main-navigation li > a {
 	border-bottom: 2px solid transparent;
+	cursor: pointer;
 }
 
 .main-navigation li.current > a {
 	border-bottom: 2px solid #151515;
 	color: #000000;
 	font-family: "montserrat-bold", sans-serif;
+	
 }
 
 .main-navigation ul {
