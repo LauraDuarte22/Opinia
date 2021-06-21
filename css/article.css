@@ -1652,29 +1652,7 @@ input::-moz-focus-inner {
   transition: all 0.5s;
 }
 
-.horizontal-format-img,
-.vertical-format-img {
-  text-align: center;
-  padding: 0.8rem 1.4rem 1.4rem;
-  width: 100%;
-  height: auto;
-  display: block;
-}
 
-.vertical-format-img {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.horizontal-format-img img {
-  height: auto;
-  width: 100%;
-}
-.vertical-format-img img {
-  height: 600px;
-  width: 500px;
-}
 
 .format-categorie {
   text-align: center;
@@ -3744,4 +3722,10 @@ footer.cite-img p {
   overflow: auto;
   font-style: italic;
   font-size: 1.4rem;
+}
+figure {
+  display:block;
+  text-align: center;
+  color: #8e8e8e;
+  font-style: italic;
 }

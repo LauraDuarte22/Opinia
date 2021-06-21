@@ -32,7 +32,6 @@ article,
 aside,
 details,
 figcaption,
-figure,
 footer,
 header,
 hgroup,
@@ -122,9 +121,6 @@ svg:not(:root) {
 	overflow: hidden;
 }
 
-figure {
-	margin: 1em 40px;
-}
 
 hr {
 	-moz-box-sizing: content-box;
